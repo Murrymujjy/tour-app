@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+menu{
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9;
+     align-items: center;
+     padding: 0 3rem;
+}
+.circle{
+width: 35px;
+height: 35px;
+display: flex;
+border-radius: 35px;
+font-family: 'Inter';
+align-items: center;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+background: #000000;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9;
+     align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+ul{
+    list-style: none;
+}
+.menu_list{
+    display: flex;
+   
+}
+.left_menu{
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: #ADADAD;
+}
+.lists{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+padding: 0 2rem;
+display: flex;
+
+color: #ADADAD;
+}
+.nav_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 7px;
+gap: 10px;
+width: 176px;
+height: 56px;
+
+
+background: #000000;
+}
+.classBtn{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0
+}
+.homePage1{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+padding: 5rem 3rem;
+}
+.wrd1{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 19px;
+padding-bottom: 2rem;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0
+}
+.wrd2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+padding-bottom: 6rem;
+
+color: #ADADAD;
+
+
+}
+.destination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F3F3;
+    padding:1rem ;
+}
+.dest_lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dest_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rem;
+}
+.dest_btn{
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 7px;
+gap: 10px;
+width: 136px;
+height: 46px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+background: #000000;
+}
+.homePage2{
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+padding: 5rem 3rem;
+}
+.wrd3{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+/* identical to box height */
+
+
+
+color: #3A3A3A;
+}
+.tour_reason{
+    padding-top: 5rem;
+    display: flex;
+    gap: 4rem;
+}
+.tour_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.reasonword1{
+    padding-top: 2rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #737272;
+}
+.reasonword2{
+    padding-top: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #C5C5C5;
+}
+.homePage3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+height: 400px;
+
+background: #D9D9D9;
+}.page3sect1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    width: 40%;
+    height: 400px;
+}.sect1{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    padding: 2rem 0rem;
+}
+.sectwords{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+padding-top: 10px;
+text-align: center;
+
+color: #737272;
+
+}
+.page3sect2{
+    width: 60%;
+height: 400px;
+ /* display: flex;
+    align-items: center; */
+background: #7C7979;
+}
+
+.homePage4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;padding: 4rem 0rem;
+    background: #F5F5F5;
+}
+.total{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+
+color: #3A3A3A;
+}
+.totalwords{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #C5C5C5;
+}
+.totalword2{
+    padding-top: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #ADADAD;
+}
+.homePage5{
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+.page5word1{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+
+color: #3A3A3A;
+}
+.page5word2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #ADADAD;
+}
+.guide{
+    padding-top: 3rem;
+    display: flex;
+    gap: 4rem;
+}
+.localGuide{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 1rem;
+}
+.guideimage{
+    width: 220px;
+height: 170px;
+
+background: #7C7979;
+}
+.guide11{
+    width: 100%;
+    padding: 20px 1rem 2rem 1rem;
+    background: #C5C5C5;
+}
+.guide1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.guideword{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #F4F3F3;
+}
+.bookbtn{
+    width: 100%;
+    padding: 0rem 1rem;
+}
+.guidebtn{
+    width: 100%;
+height: 36px;
+
+background: #000000;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.homePage6{
+     width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F5;
+
+}
+.page6word1{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+padding-bottom: 10px;
+
+color: #3A3A3A;
+}
+.page6word2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+text-align: center;
+
+color: #ADADAD;
+}
+.tour_country{
+    width: 100%;
+    background: #7C7979;
+    height: 288px;
+}
