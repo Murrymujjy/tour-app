@@ -72,6 +72,9 @@ display: flex;
 
 color: #ADADAD;
 }
+.dropSpace{
+    padding: 0rem 10px;
+}
 .nav_btn{
     display: flex;
 flex-direction: row;
@@ -109,8 +112,8 @@ flex-grow: 0
     flex-direction: column;
     justify-content: center;
 align-items: center;
-padding: 5rem 3rem;
-}
+ padding: 5rem 3rem;
+} 
 .wrd1{
     
 font-family: 'Inter';
@@ -155,6 +158,9 @@ color: #ADADAD;
     align-items: center;
     justify-content: center;
 }
+.imgSpace{
+    padding: 0rem 10px;
+}
 .dest_list{
     display: flex;
     align-items: center;
@@ -189,6 +195,7 @@ flex-grow: 0;
 
 background: #000000;
 }
+
 .homePage2{
     background: #F5F5F5;
     display: flex;
@@ -415,7 +422,7 @@ color: #FFFFFF;
 }
 .homePage6{
      width: 100%;
-    padding: 3rem 0rem;
+    padding: 4rem 0rem 1rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,9 +451,402 @@ line-height: 19px;
 text-align: center;
 
 color: #ADADAD;
+ padding-bottom: 2rem;
 }
 .tour_country{
     width: 100%;
     background: #7C7979;
-    height: 288px;
+    height: 300px;
+    display: flex;
+    
+}
+.kenyan_section{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.afri_section{
+    width: 65%;
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+}
+.afri1_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.nigeria_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #000000;
+    height: 100%;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+
+
+border-image-source: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #000000, #000000);
+color: #FFFFFF;
+
+}
+.egypt_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+     height: 100%;
+    border: 1px solid #000000;
+     font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+border-image-source: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #000000, #000000);
+color: #FFFFFF;
+
+}
+.afri2_section{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.benin_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+     height: 100%;
+    border: 1px solid #000000;
+     font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+border-image-source: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #000000, #000000);
+
+color: #FFFFFF;
+}
+
+.ghana_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 33.33%;
+     height: 100%;
+     border: 1px solid #000000;
+
+ font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+border-image-source: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #000000, #000000);
+
+color: #FFFFFF;
+}
+
+.rwanda_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 33.33%;
+     border: 1px solid #000000;
+      height: 100%;
+       font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+text-align: center;
+
+border-image-source: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, #000000, #000000);
+color: #FFFFFF;
+
+}
+.allDestination{
+    padding: 3rem 0;
+    display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.alldest_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 7px;
+gap: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+width: 176px;
+height: 56px;
+
+
+background: #000000;
+}
+.homePage7{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+.page7word1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+
+color: #3A3A3A;
+padding-bottom: 1rem;
+}
+.reviews{
+display: flex;
+align-items: center;
+gap: 7rem;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+.review_img{
+    width: 300px;
+height: 180px;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+padding:2rem 3rem;
+
+
+background: #D9D9D9;
+border-radius: 8px 8px 0px 0px;
+}
+.circle1{
+width: 40px;
+height: 40px;
+display: flex;
+border-radius: 40px;
+font-family: 'Inter';
+align-items: center;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+background: #737272;
+}
+.review_word1{
+    padding-top: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+
+color: #ADADAD;
+}
+.review_word2{
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+padding: 1rem 1rem ;
+color: #ADADAD;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:2rem 5rem 3rem 5rem;
+    background: #D9D9D9;
+}
+
+.footsection1{
+    display: flex;
+    gap: 10rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.footersub1{
+    display: flex;
+    flex-direction: column;
+}
+.footword1{
+    padding-top: 2rem;
+}
+.footersub2{
+    display: flex;
+    gap:4rem ;
+}
+.footersub3{
+    display: flex;
+}
+.sublist{
+    display: flex;
+}
+
+.footer_line{
+    width: 100%;
+    margin: 3rem 0 1rem 0;
+    
+border: 1px solid rgba(0, 0, 0, 1);
+
+
+}
+.circle2{
+width: 30px;
+height: 30px;
+display: flex;
+border-radius: 30px;
+font-family: 'Inter';
+align-items: center;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+background: #737272;
+}
+.footer_circle{
+    width:20px;
+height: 20px;
+display: flex;
+border-radius: 20px;
+font-family: 'Inter';
+align-items: center;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+background: #737272;
+}
+.footcircles{
+    padding-top: 1rem;
+    display: flex;
+    gap: 6px;
+}
+
+.footsection2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #3A3A3A;
 }
